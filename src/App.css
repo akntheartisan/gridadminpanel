@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+
+.navbar .logo {
+  color: white;
+}
+
+.navbar .navul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .navul li {
+  list-style: none;
+}
+
+.navbar .navul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 10px;
+}
+
